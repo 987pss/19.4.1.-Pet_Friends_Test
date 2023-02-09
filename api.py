@@ -1,7 +1,7 @@
 import requests
 import json
 from requests_toolbelt.multipart.encoder import MultipartEncoder
-from app.settings import base_url, get_api_key_url, get_list_of_pets_url, add_new_pet_url, update_pet_url, \
+from settings import base_url, get_api_key_url, get_list_of_pets_url, add_new_pet_url, update_pet_url, \
     delete_pet_url
 
 
