@@ -21,7 +21,7 @@ password = os.getenv('password')
 name = 'Мася'
 animal_type = 'кошка'
 age = '12'
-pet_photo_path = str(Path('..', 'app', 'images', 'Masya.jpg'))
+pet_photo_path = str(Path('images', 'Masya.jpg'))
 
 # Данные для обновления информации о добавленном питомце
 new_name = 'Вася'
